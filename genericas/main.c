@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "funciones.h"
+float pedirflotante(char[],float,float);
+char pedirchar (char[],char,char);
+
 
 int pedirentero (char[],int , int );
-
 int validarentero (int,int, int,char []);
 
 int main()
