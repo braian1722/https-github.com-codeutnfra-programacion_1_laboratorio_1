@@ -6,7 +6,7 @@
   //  int numero = 5;
     //int i;
     //int factor = 1;
-
+                                                            //ocupa 12 bites
     //for(i=numero; i >=1; i--)
     //{
        // factor = factor *i;
@@ -32,7 +32,7 @@ int main()
     int factor;
     factor = factorial(numero);
     printf("el factorial es :%d",factor);
-
+                                                     // ocupa demaciada memoria
     return 0;
 }
 int factorial(int numero)
