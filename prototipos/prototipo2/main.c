@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void suma ();
+void suma (void);
 
 int main()
 {

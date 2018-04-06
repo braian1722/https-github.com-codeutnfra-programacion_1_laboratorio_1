@@ -23,3 +23,26 @@ void suma (int numero1, int numemero2)
     total = numero1 + numemero2;
     return total;
 }
+
+
+
+
+
+void suma (int numero1, int numemero2);
+
+int main()
+{
+   suma();
+}
+
+void suma (int numero1, int numemero2)
+{
+    int total;
+    total = numero1 + numemero2;
+    return total;
+}
+
+
+
+
+

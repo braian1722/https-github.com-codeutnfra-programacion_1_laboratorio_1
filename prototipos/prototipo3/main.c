@@ -27,6 +27,4 @@ int suma (void)
    return total;
 
 
-
-
 }
