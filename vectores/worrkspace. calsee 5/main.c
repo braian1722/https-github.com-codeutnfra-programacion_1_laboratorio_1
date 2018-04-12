@@ -3,9 +3,7 @@
 #define TAM 5
 
 
-void mostrarvector(int [],int);
-void modificarvalor(int[]);
-int mostrarmaximo (int[],int);
+
 
 
 int main()
@@ -15,6 +13,7 @@ int main()
     int i;
     int edad;
     int mayor;
+    int indice;
 
 
      for (i=0; i<TAM;i++)
@@ -33,13 +32,24 @@ int main()
 
     /*mostrar vector*/
 
-
+cargarvector (vector,TAM);
 mostrarvector(vector, TAM);
 
   /*modificarvalor(vector);  */
 
 mostrarmaximo( vector,TAM);
 printf("\n el maximo es %d",mayor);
+indice = buscarvalor(vector,TAM,14);
+
+if(indice == -1)
+{
+     printf("nose encontro");
+}
+else
+{
+    printf("encontro el valor");
+}
+
 
     return 0;
 }
@@ -78,5 +88,29 @@ int mostrarmaximo (int vec[],int tam)
   return maximo;
   }
 
+void cargarvector( int vec [],int tam)
+{
+    int i;
+
+    for (i = 0;i<tam;i++)
+    {
+        scanf("%d",&vec[1]);
+    }
+}
+
+int buscadorvalor (int vec[],int tam,int valor)
+{
+    int index;
+    int i;
+     for (i = 0;i<tam;i++)
+     {
+         if (valor== vec [1])
+         {
+             index =1;
+             break;
+         }
+     }
 
 
+
+}
