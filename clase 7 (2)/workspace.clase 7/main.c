@@ -5,7 +5,7 @@
 
 
 float calcularpromedio (int ,int );
-
+void mostraralumno (int[],char[][30],int[],int[],float[],int[]);
 
 int main()
 {
@@ -58,4 +58,14 @@ int main()
 
   }
 
+  void mostraralumno (int legajo[],char nonbres[][30],int nota1[],int nota2[],float promedio[],int cantidad[])
+  {
+
+      for (i = 0;cantidad;i++)
+        {
+
+      }
+
+
+  }
 
