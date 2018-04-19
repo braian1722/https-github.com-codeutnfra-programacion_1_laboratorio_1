@@ -61,7 +61,7 @@ int main()
   void mostraralumno (int legajo[],char nonbres[][30],int nota1[],int nota2[],float promedio[],int cantidad[])
   {
 
-      for (i = 0;cantidad;i++)
+      for (i = 0;i<cantidad;i++)
         {
 
       }
