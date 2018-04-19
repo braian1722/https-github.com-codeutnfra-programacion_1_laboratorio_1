@@ -23,7 +23,6 @@ int main()
 
         printf("nobres ");
         fflush(stdin);
-
         gets(nombres[i]);
 
         printf("nota 1: ");
@@ -42,7 +41,7 @@ int main()
 
   for (i=0;i<3;i++)
     {
-        printf("%d ,%s ,%d ,%d ,%d %.2f\n", legajos[i],nombres[i],nota1[i],nota2[i],promedio[i] );
+        printf("%d ,%s ,%d ,%d  %.2f\n", legajos[i],nombres[i],nota1[i],nota2[i],promedio[i] );
 
     }
 
@@ -54,7 +53,6 @@ int main()
   {
       float promedio;
       promedio = (float) (nota1 + nota2)  / 2;
-
       return  promedio;
 
 
