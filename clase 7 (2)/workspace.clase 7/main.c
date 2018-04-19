@@ -4,7 +4,7 @@
 
 
 
-float clacularpromedio (int nota1,int nota2);
+float calcularpromedio (int ,int );
 
 
 int main()
@@ -29,29 +29,33 @@ int main()
         printf("nota 1: ");
         scanf("%d", &nota1[i]);
 
-        printf("nota 2 . ");
+        printf("nota 2 : ");
         scanf("%d",&nota2[i]);
 
-        printf("el promedio es :");
-        scanf("%f",&promedio[i]);
+
+
+       promedio[i] = calcularpromedio(nota1[i] ,nota2[i]);
+
 
 
   }
 
   for (i=0;i<3;i++)
     {
+        printf("%d ,%s ,%d ,%d ,%d %.2f\n", legajos[i],nombres[i],nota1[i],nota2[i],promedio[i] );
 
     }
 
-
+ return 0;
 }
 
 
-  float clacularpromedio (int nota1,int nota2)
+  float calcularpromedio (int nota1,int nota2)
   {
-      float total;
-      promedio = (nota1 + nota2)  / 2;
-      total = promedio;
+      float promedio;
+      promedio = (float) (nota1 + nota2)  / 2;
+
+      return  promedio;
 
 
   }
