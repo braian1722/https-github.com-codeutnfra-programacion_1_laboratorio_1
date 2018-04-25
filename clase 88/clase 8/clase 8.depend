@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1524696859 source:c:\users\ivan\desktop\clase 9\clase 88\clase 8\main.c
+	<stdio.h>
+	<stdlib.h>
+	"tarea.h"
+
+1524696859 c:\users\ivan\desktop\clase 9\clase 88\clase 8\tarea.h
+	<stdio.h>
+	<stdlib.h>
+
+1524696895 source:c:\users\ivan\desktop\clase 9\clase 88\clase 8\tarea.c
+	"tarea.h"
+
